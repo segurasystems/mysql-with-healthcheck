@@ -1,4 +1,4 @@
-FROM mysql:$TAG_NAME
+FROM mysql:latest
 
 COPY healthcheck /usr/local/bin/
 
