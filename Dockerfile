@@ -1,4 +1,4 @@
-FROM $VERSION
+FROM mysql:$TAG_NAME
 
 COPY healthcheck /usr/local/bin/
 
